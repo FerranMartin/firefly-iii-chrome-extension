@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Firefly III",
+    "version": "1.0",
+    "permissions": ["activeTab", "http://localhost:81/"],
+    "content_scripts": [
+        {
+          "matches": ["http://localhost:81/search?search*"],
+          "js": ["searchUtils.js"]
+        }
+      ]
+  }
