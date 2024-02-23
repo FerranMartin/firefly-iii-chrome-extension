@@ -54,6 +54,10 @@ function insertTotalAmountRow({ table, totalAmount }) {
 /*------------------*/
 
 const QUICK_SEARCHES = {
+  pendents_de_categoritzar: {
+    search: `has_any_category:false type:withdrawal`,
+    label: "Pendents de categoritzar",
+  },
   restaurants_ultim_mes: {
     search: `category_is:restaurants date_after:"start of this month"`,
     label: "Restaurants últim mes",
