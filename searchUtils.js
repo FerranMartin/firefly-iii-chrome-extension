@@ -66,6 +66,14 @@ const QUICK_SEARCHES = {
     search: `category_is:restaurants date_is:"xxxx-MM-xx"`,
     label: "Restaurants X mes",
   },
+  supermercat_ultim_mes: {
+    search: `category_is:supermercat date_after:"start of this month"`,
+    label: "Supermercat últim mes",
+  },
+  supermercat_X_mes: {
+    search: `category_is:supermercat date_is:"xxxx-MM-xx"`,
+    label: "Supermercat X mes",
+  },
 };
 
 function addQuickSearches() {
